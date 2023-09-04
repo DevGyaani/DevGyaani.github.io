@@ -15,8 +15,14 @@
             width: 100vw;
             height: 100%;
             display: flex;
-            align-items: flex-end   ;
+            align-items: center;
             justify-content: center;
+        }
+
+        @media (max-width=600px) {
+            .tiles {
+                flex-direction: column;
+            }
         }
         .tiles>div {
             display: flex;
